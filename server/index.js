@@ -8,10 +8,11 @@ const cookieParser = require("cookie-parser");
 
 connectWithDb();
 
+// Cloudinary configuration
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
+  cloud_name: 'ukhtog1t',
+  api_key: '192269312778844',
+  api_secret: 'WQH_5HeOX0JWVjBoBmgGaFUJht0',
 });
 
 const app = express();
